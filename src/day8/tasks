@@ -1,0 +1,31 @@
+// task 1.
+// Write a Java program that multiplies four integers and  print result
+
+
+// task 2.
+// Write a Java program that declares three integers and print the average:
+        // a, b, c (a = 5, b= 3, c= 2)
+        // output:
+        // (a+b+c)/3 = 3.33333333333
+
+// task 3
+// Write a Java program that calculate average of following numbers
+//   input: 23.4, 24.0, 12, 450.3, 23000
+
+// task4
+// Write a Java program that reads a number and display the square, cube
+
+// Write a Java program to convert temperature from Fahrenheit to Celsius degree.
+
+// Write a Java program to compute body mass index (BMI).
+// BMI: The BMI is defined as the body mass divided by the square of the body height,
+//      and is universally expressed in units of kg/m2,
+//      resulting from mass in kilograms and height in metres.
+
+// Write a Java program to break an integer into a sequence of individual digits.
+// ex: input: 12345
+        output: 1
+                2
+                3
+                4
+                5
