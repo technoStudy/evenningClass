@@ -1,0 +1,5 @@
+1. What is the data type of Scanner?
+2. What is the difference between System.in and System.out
+3. What are main/key things you need to do when using Scanner?
+4. System.out.println( "Sum is: " + a + b ); is same as System.out.println( "Sum is: " + (a + b) );
+
