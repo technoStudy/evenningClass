@@ -23,9 +23,10 @@
 //      resulting from mass in kilograms and height in metres.
 
 // Write a Java program to break an integer into a sequence of individual digits.
-// ex: input: 12345
-        output: 1
+// ex: input: 5022
+        output: 5
+                0
                 2
-                3
-                4
-                5
+                2
+
+
