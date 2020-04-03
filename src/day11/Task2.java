@@ -4,6 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Task2 {
+    // Guess a number game!!!
     // Let user provide a number between 0 and 3
     // then generate a random number between 0 and 3
     // and check if provided number is equal to generated number
