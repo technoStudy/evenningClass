@@ -15,22 +15,14 @@ public class Task1 {
 
         int lastNumber = input.nextInt();
 
+
         int result = 0;
 
         int i = 0;
-        while(i <= lastNumber) { //4. 3 <= 2
-            result += i; // 0 1 2 3 4 ... lastNumber
-            //           (result,  i)
-            //1. result = 0 + 0; = 0
-            //2. result = 0 + 1; = 1
-            //3. result = 1 + 2; = 3
-            //4. i = ?
-
+        while(i <= lastNumber) {
+            result += i;
             i++;
-
-
         }
-
         System.out.println( "sum is: " + result );
 
 
