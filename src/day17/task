@@ -1,0 +1,11 @@
+Fill array with random values using Random/Math.random, 0 <= random N <= 10
+    // arrays size = 10
+part2. check if an array of has 0, print => "it has zero"
+part3. check if array has 10, print => "it has 10"
+part4. check if array has 0 and 10, print => "it has zero and ten"
+part4.1 also print their indexes
+
+
+Write a Java program to find the duplicate values of an array of integer value
+Write a Java program to find the maximum and minimum value of an array.
+Write a Java program to copy an array by iterating the array
