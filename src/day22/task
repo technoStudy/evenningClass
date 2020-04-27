@@ -1,0 +1,12 @@
+    // create a method that will generate arrayList of double with random double values
+    // create a method to retrieve an element at specified index from given arrayList
+    // create a method to update element in specified position
+    // create a method to remove the third element from a arrayList
+
+
+    // create a method that will return list of languages
+    // create a method that will print list of Strings in reverse order
+    // create a method that will print only first three elements in list
+    // create method that returns languages which starts with "T" or ends with "sh"
+    // create method that will return new list without "English"
+    // create method that will remove all occurrence of language which ends with "sh"

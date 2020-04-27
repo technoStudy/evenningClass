@@ -49,7 +49,6 @@ public class Task2 {
 
 
     // create method that prints only values of map
-
     public static void main(String[] args) {
         HashMap<Integer, String> colorMap = getColorMap();
         System.out.println(colorMap);

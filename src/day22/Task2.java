@@ -4,68 +4,32 @@ import java.util.ArrayList;
 
 public class Task2 {
 
-    public static void main(String[] args) {
-        ArrayList<String> languages = languageList();
-
-//        printReverse(languages);
-
-//        printThree(languages);
-
-        ArrayList<String> specifiedLanguages = specifiedLanguages(languages);
-
-        ArrayList<String> withoutEnglish = withoutEnglish(languages);
-    }
-
     // create a method that will return list of languages
-    public static ArrayList<String> languageList() {
+    public static ArrayList<String> getLanguages() {
         ArrayList<String> list = new ArrayList<>();
-        list.add("Russian");
-        list.add("Turkmen");
-        list.add("Tajik");
-        list.add("Turkish");
-        list.add("Kazakh");
         list.add("English");
+        list.add("Turkish");
+        list.add("Macedonian");
         list.add("Uzbek");
-        list.add("French");
-        list.add("Spanish");
-        list.add("German");
-
-        list.add("English");
-        list.add("Turkish");
-        list.add("Vietnamese");
-        list.add("Indonesian");
-        list.add("Javanese");
-        list.add("Spanish");
 
         return list;
     }
 
-    // create a method that will print list of Strings in reverse order
+    // create a method that will print list of languages in reverse order
     public static void printReverse(ArrayList<String> list) {
-        for(int i = list.size() - 1; i >= 0; i--) {
+        for (int i = list.size() - 1; i >= 0; i--) {
             System.out.println(list.get(i));
         }
-    }
-
-    // create a method that will print only first three elements in list
-    public static void printThree(ArrayList<String> list) {
-//        1 way
-        for(int i = 0; i < 3; i++) {
-            System.out.println(list.get(i));
-        }
-
-//        // 2 way
-//        System.out.println(list.get(0));
-//        System.out.println(list.get(1));
-//        System.out.println(list.get(3));
     }
 
     // create method that returns languages which starts with "T" or ends with "sh"
-    public static ArrayList<String> specifiedLanguages(ArrayList<String> languages) {
+    public static ArrayList<String> getSpecificLanguages(ArrayList<String> languages){
         ArrayList<String> result = new ArrayList<>();
 
-        for(String language : languages) {
-            if(language.startsWith("T") || language.endsWith("sh")) {
+        // check if language starts with "T" or ends with "sh"
+        // only then add to result list
+        for (String language : languages) {
+            if(language.startsWith("T") || language.endsWith("sh")){
                 result.add(language);
             }
         }
@@ -73,19 +37,17 @@ public class Task2 {
         return result;
     }
 
-    //  create method that will return new list without "English"
-    public static ArrayList<String> withoutEnglish(ArrayList<String> languages) {
-        ArrayList<String> result = new ArrayList<>();
+    public static void main(String[] args) {
+        ArrayList<String> languages = getLanguages();
 
-        for(String language : languages) {
-            if(!language.equals("English")) {
-                result.add(language);
-            }
-        }
-
-        return result;
+//        printReverse(languages);
+        ArrayList<String> specificLanguages = getSpecificLanguages(languages);
     }
-
-    // create method that will remove all occurrence of language which ends with "sh"
 
 }
+
+
+// create a method that will print only first three elements in list
+// create method that returns languages which starts with "T" or ends with "sh"
+// create method that will return new list without "English"
+// create method that will remove all occurrence of language which ends with "sh"
