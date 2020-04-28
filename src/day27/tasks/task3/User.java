@@ -11,4 +11,7 @@ public class User {
     String password;
     String firstName;
     String lastName;
+
+    Profile profile;
+
 }
