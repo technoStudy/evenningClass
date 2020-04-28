@@ -9,8 +9,6 @@ package day27.tasks.task3;
 public class User {
     String username;
     String password;
-    String firstName;
-    String lastName;
 
     Profile profile;
 

@@ -14,13 +14,14 @@ public class Task3 {
         User user1 = new User();
         user1.username = username;
         user1.password = password;
-        user1.firstName = firstName;
-        user1.lastName = lastName;
 
-        user1.birthDate = birthDate;
-        user1.address = address;
-        user1.email = email;
-        user1.phone = phone;
+        user1.profile = new Profile();
+        user1.profile.firstName = firstName;
+        user1.profile.lastName = lastName;
+        user1.profile.birthDate = birthDate;
+        user1.profile.address = address;
+        user1.profile.email = email;
+        user1.profile.phone = phone;
 
         return user1;
     }
@@ -28,13 +29,13 @@ public class Task3 {
     public static void printUser(User user) {
         System.out.println("Username: " + user.username);
         System.out.println("Password: " + user.password);
-        System.out.println("FirstName: " + user.firstName);
-        System.out.println("LastName: " + user.lastName);
 
-        System.out.println("Birth Date: " + user.birthDate);
-        System.out.println("Address: " + user.address);
-        System.out.println("Email: " + user.email);
-        System.out.println("Phone: " + user.phone);
+        System.out.println("FirstName: " + user.profile.firstName);
+        System.out.println("LastName: " + user.profile.lastName);
+        System.out.println("Birth Date: " + user.profile.birthDate);
+        System.out.println("Address: " + user.profile.address);
+        System.out.println("Email: " + user.profile.email);
+        System.out.println("Phone: " + user.profile.phone);
     }
 
 }
