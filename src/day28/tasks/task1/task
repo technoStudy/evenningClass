@@ -1,0 +1,10 @@
+create class ElectricityAccount with attributes:
+1. totalWph -> watt per hour
+2. rate
+3. bill
+
+create class Customer with instance variables:
+1. name
+2. electricityAccount
+
+create class Task1, and create a Customer with all attributes and print/debug;
