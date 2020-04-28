@@ -45,12 +45,12 @@ public class Task2 {
         students.add(createStudent("Mikasa", 85.5));
         students.add(createStudent("Jon Snow", 53.5));
         students.add(createStudent("Dogan", 100));
-        students.add(createStudent("Dos", -0.1));
-
 
         for(Student student : students) {
             printStudent(student);
         }
+
+        double average = getExamResultAverage(students);
 
 
     }
@@ -68,6 +68,19 @@ public class Task2 {
     public static void printStudent(Student student) {
         //your code to print student
         System.out.println(student.name + " -> " + student.examResult);
+    }
+
+    // create a method that will get an average of students exam result
+    public static double getExamResultAverage(ArrayList<Student> students) {
+        //your code here
+        double examResultSum = 0;
+        for(Student student : students) {
+            examResultSum += student.examResult;
+        }
+
+        double examResultAverage = examResultSum / students.size();
+
+        return examResultAverage;
     }
 
 
