@@ -19,7 +19,7 @@ public class Ex1 {
         course1.address = "internet";
         course1.phoneNumber = "+1 335 45 85";
         student1.courseInfo = course1;
-        
+
     }
 
 }

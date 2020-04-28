@@ -1,4 +1,4 @@
-package day27.task;
+package day27.tasks.task2;
 
 // create class Student with fields:
 // string name, double examResult

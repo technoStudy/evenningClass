@@ -1,0 +1,37 @@
+// Part 1
+// create class User in separate file with attributes as:
+// username
+// password
+// firstName
+// lastName
+
+// Part 2
+// create 3 users in Task3 class, and print all fields of user in main method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Part 3
+// use method to keep things simple, and DRY
+
+// Part 4
+// add more profile attributes to User, and repeat Part2 and Part3
+// address
+// birthDate -> string
+// phone
+// email
+
+
+// Part 5
+// try to separate profile attributes to new class named Profile
+
