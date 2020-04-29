@@ -1,6 +1,6 @@
 create class ElectricityAccount with attributes:
 1. totalWph -> watt per hour
-2. rate
+2. rate = 0.7
 3. bill
 
 create class Customer with instance variables:
@@ -8,3 +8,15 @@ create class Customer with instance variables:
 2. electricityAccount
 
 create class Task1, and create a Customer with all attributes and print/debug;
+
+
+create method in Customer as "consumeElectricity" with parameter as (wph)
+every time when customer consumes electricity. it should add to totalWph
+//ex: customer.consumeElectricity(100);
+      customer.consumeElectricity(200);
+      customer.consumeElectricity(50);
+
+   // totalWph = 350
+
+create method in ElectricityAccount that calculates bill
+where bill is rate * totalWph
