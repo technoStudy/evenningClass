@@ -24,4 +24,14 @@ public class Rectangle {
         System.out.println("Area: " + getArea());
         System.out.println("--------------------------");
     }
+
+    public String toString() {
+        String output = "\n--------------------" +
+                "\nLength: " + length +
+                "\nWidth: " + width +
+                "\nPerimeter: " + getPerimeter() +
+                "\nArea: " + getArea() +
+                "\n--------------------------";
+        return output;
+    }
 }
