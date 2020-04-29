@@ -1,0 +1,5 @@
+create class Rectangle with attributes: length and width
+
+create method in class Rectangle that calculate perimeter
+
+create class Task2 and create objects of Rectangle and print perimeters
