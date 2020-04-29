@@ -9,12 +9,23 @@ class Person {
     That is why it is known as an instance variable.
      */
     String name;
+    String surname;
     int age;
 
     // when you have methods that are not static
     // they are instance methods
-    int getBirthYear(){
+    int getBirthYear() {
         return 2020 - age;
+    }
+
+    String getInitials() {
+        return name.charAt(0) + "." + surname + ".";
+    }
+
+    void print() {
+        System.out.println("Name: " + name);
+        System.out.println("Surname: " + surname);
+        System.out.println("Initials: " + getInitials());
     }
 }
 
