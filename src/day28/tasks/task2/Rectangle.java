@@ -9,4 +9,19 @@ public class Rectangle {
     public int getPerimeter() {
         return 2 * (length + width);
     }
+
+    // create method that calculates area
+    public int getArea() {
+        return length * width;
+    }
+
+
+    public void print() {
+        System.out.println("--------------------------");
+        System.out.println("Length: " + length);
+        System.out.println("Width: " + width);
+        System.out.println("Perimeter: " + getPerimeter());
+        System.out.println("Area: " + getArea());
+        System.out.println("--------------------------");
+    }
 }

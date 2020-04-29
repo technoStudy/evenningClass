@@ -7,9 +7,17 @@ public class Task2 {
         Rectangle rect1 = new Rectangle();
         rect1.width = 5;
         rect1.length = 10;
-        int rect1Perimeter = rect1.getPerimeter();
+        rect1.print();
 
-        System.out.println("Perimeter: " + rect1Perimeter);
+        Rectangle rect2 = new Rectangle();
+        rect2.width = 50;
+        rect2.length = 50;
+        rect2.print();
+
+        Rectangle rect3 = new Rectangle();
+        rect3.width = 3;
+        rect3.length = 4;
+        rect3.print();
     }
 
 }
