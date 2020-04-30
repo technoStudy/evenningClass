@@ -21,6 +21,10 @@ public class Task1 {
         customer1.consumeElectricity(500);
         customer1.consumeElectricity(60);
 
+        customer1.electricityAccount.calculateBill();
+
+        
+
     }
 
 }

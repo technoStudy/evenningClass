@@ -21,5 +21,6 @@ every time when customer consumes electricity. it should add to totalWph
 
    // totalWph = 350
 
+***Part 5***
 create method in ElectricityAccount that calculates bill
 where bill is rate * totalWph

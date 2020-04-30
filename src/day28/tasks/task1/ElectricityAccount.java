@@ -9,6 +9,17 @@ create class ElectricityAccount with attributes:
 */
 public class ElectricityAccount {
     double totalWph;
-    double rate = 2.0;
+    double rate = 0.7;
     double bill;
+
+    /*
+    ***Part 5***
+    create method in ElectricityAccount that calculates bill
+    where bill is rate * totalWph
+    */
+    double calculateBill() {
+        bill = rate * totalWph;
+
+        return bill;
+    }
 }
