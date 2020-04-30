@@ -17,6 +17,10 @@ public class Task1 {
         // customer1.electricityAccount = electricityAccount;
 
 
+        customer1.consumeElectricity(100);
+        customer1.consumeElectricity(500);
+        customer1.consumeElectricity(60);
+
     }
 
 }

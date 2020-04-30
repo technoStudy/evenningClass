@@ -20,6 +20,6 @@ public class Customer {
    // totalWph = 350
      */
     void consumeElectricity(double wph){
-
+        electricityAccount.totalWph += wph;
     }
 }
