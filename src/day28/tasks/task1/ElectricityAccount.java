@@ -9,7 +9,7 @@ create class ElectricityAccount with attributes:
 */
 public class ElectricityAccount {
     double totalWph;
-    double rate = 0.7;
+    double rate = 2.0;
     double bill;
 
     /*

@@ -8,7 +8,7 @@ create class Customer with instance variables:
 * */
 public class Customer {
     String name;
-    ElectricityAccount electricityAccount;
+    ElectricityAccount electricityAccount = new ElectricityAccount();
 
     /*
     ***Part 4***
@@ -22,4 +22,14 @@ public class Customer {
     void consumeElectricity(double wph){
         electricityAccount.totalWph += wph;
     }
+
+
+    public String toString(){
+        return "-------------------"+
+                "\nName: " + name +
+                "\nBill: $" + electricityAccount.bill+
+                "\n------------------";
+
+    }
+
 }
