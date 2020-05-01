@@ -20,11 +20,11 @@ public class Login {
     if username and password are not empty or not null
      */
     public void checkAndPrint(){
-        if(username != null || username.isEmpty()){
-            System.out.println("Not valid Username");
+        if(username == null || username.isEmpty()){
+            System.out.println("Not valid username");
         }
-        if(password != null || password.isEmpty()){
-            System.out.println("Not valid Username");
+        if(password == null || password.isEmpty()){
+            System.out.println("Not valid password");
         }
     }
 }
