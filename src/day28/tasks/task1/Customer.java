@@ -19,15 +19,19 @@ public class Customer {
           customer.consumeElectricity(50);
    // totalWph = 350
      */
-    void consumeElectricity(double wph){
-        electricityAccount.totalWph += wph;
+    void consumeElectricity(double wph) {
+        if (wph < 0) {
+            System.out.println("Sorry, wph is not valid!!!, ");
+        } else {
+            electricityAccount.totalWph += wph;
+        }
     }
 
 
-    public String toString(){
-        return "-------------------"+
+    public String toString() {
+        return "-------------------" +
                 "\nName: " + name +
-                "\nBill: $" + electricityAccount.bill+
+                "\nBill: $" + electricityAccount.bill +
                 "\n------------------";
 
     }

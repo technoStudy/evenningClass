@@ -26,7 +26,7 @@ public class Task1 {
         customer2.name = "Max";
         customer2.consumeElectricity(30);
         customer2.consumeElectricity(45);
-        customer2.consumeElectricity(-10000);
+        customer2.consumeElectricity(-50);
         customer2.electricityAccount.calculateBill();
         System.out.println(customer2);
 

@@ -1,0 +1,26 @@
+***Part 1***
+create class Lesson, with fields:
+String name,
+int credit=1-3,
+double grade=0-100
+
+***Part 2***
+create class Student, with profile fields and lessons list
+
+***Part 3***
+create class Task1, create 2 instances of Student class
+// register two students to your application
+
+***Part 4***
+in class Task1, create 5 instances of Lesson class
+
+***Part 5***
+create method in Student class named takeLesson(Lesson lesson)
+which will add lesson to student lessons list
+//assign Lessons to students,
+
+***Part 5***
+1. add field to Student class, maxCredit,
+which will control maximum credit that student can have
+2. in takeLesson method, check for credit amount
+
