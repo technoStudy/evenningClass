@@ -9,7 +9,7 @@ create class Customer with instance variables:
 public class Customer {
     String name;
     ElectricityAccount electricityAccount = new ElectricityAccount();
-
+    
     /*
     ***Part 4***
     create method in Customer as "consumeElectricity" with parameter as (wph)
@@ -17,9 +17,9 @@ public class Customer {
     //ex: customer.consumeElectricity(100);
           customer.consumeElectricity(200);
           customer.consumeElectricity(50);
-   // totalWph = 350
-     */
-    void consumeElectricity(double wph) {
+    //    totalWph = 350
+    */
+    public void consumeElectricity(double wph) {
         if (wph < 0) {
             System.out.println("Sorry, wph is not valid!!!, ");
         } else {

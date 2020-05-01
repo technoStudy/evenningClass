@@ -1,37 +1,39 @@
 package day29.example;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Random;
+import java.util.Scanner;
 
 public class JavaStaticAndNonStaticMethods {
 
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle();
-        rectangle.length = 10;
-        rectangle.width = 5;
+        Rectangle rectangle1 = new Rectangle();
+        int area = rectangle1.getArea();
 
-        // to use non-static/instance method we have to have an object/instance
-        int area = rectangle.getArea();
-        System.out.println("Area: " + area);
-        //example from build-in method in java
-        new Random().nextInt(5);
+        Rectangle rectangle = Rectangle.createRectangle(10, 5);
+        Rectangle square = Rectangle.createSquare(5);
 
 
-        // to use static method we dont need an object/instance
-        Rectangle square = createSquare(5);
-        //example from build-in method in java
+        //example of static method
+        Math.abs(10);
         Math.random();
+        //Arrays.sort();
+        //Collections.max()
 
 
-        int absoluteNumber = MyMath.abs(-100);
-        System.out.println("Absolute of -100: " + absoluteNumber);
+        //example of non-static/instance method
+        Random random = new Random();
+        random.nextDouble();
+
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+
+
+
 
     }
 
-    public static Rectangle createSquare(int side) {
-        Rectangle rectangle = new Rectangle();
-        rectangle.length = side;
-        rectangle.width = side;
 
-        return rectangle;
-    }
+
 }
