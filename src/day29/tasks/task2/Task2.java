@@ -7,5 +7,6 @@ public class Task2 {
         login1.checkAndPrint();
 
         Login login2 = Login.create("rainwater","!2394$&*");
+        login2.checkAndPrint();
     }
 }
