@@ -1,0 +1,25 @@
+***Part 1***
+create class Subject, with fields:
+String name,
+int credit=1-3,
+
+***Part 2***
+create class Student, with profile fields and subjects list
+
+***Part 3***
+create class Task1, create 2 instances of Student class
+// register two students to your application
+
+***Part 4***
+in class Task1, create 5 instances of Subject class
+
+***Part 5***
+create method in Student class named takeSubject(Subject subject)
+which will add subject to student subjects list
+//assign subjects to student,
+
+***Part 6***
+1. add field to Student class: maxCredit;
+which will control maximum credit that student can have
+2. in takeLesson method, check for credit amount
+

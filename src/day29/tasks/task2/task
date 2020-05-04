@@ -1,0 +1,22 @@
+***Part 1***
+create class Login with attributes
+1. username
+2. password
+
+***Part 2***
+create class Task2, create two objects of Login class
+
+***Part 3***
+create instance method in Login to check
+if username and password are not empty and not null
+
+
+***Part 4***
+create class StringUtils and add static method named isBlank(String str)
+which checks if string is null or empty
+str = null
+str = ""
+str = "         "
+
+***Part 5***
+use StringUtils.isBlank in Login check
