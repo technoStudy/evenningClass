@@ -1,4 +1,4 @@
-package day31.one;
+package day31.classModifiers.one;
 
 /*
 public

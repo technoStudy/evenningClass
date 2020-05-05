@@ -1,7 +1,7 @@
-package day31.two;
+package day31.classModifiers.two;
 
-//import day31.one.DefaultModifierClass;
-import day31.one.PublicModifierClass;
+//import day31.classModifiers.one.DefaultModifierClass;
+import day31.classModifiers.one.PublicModifierClass;
 
 public class InDifferentPackage {
 
