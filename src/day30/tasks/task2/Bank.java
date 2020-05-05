@@ -9,18 +9,18 @@ public class Bank {
     int serial;
     boolean trustworthiness;
 
-    public Bank() {
-        name = "Unnamed";
+    Bank() {
+        name = "Falcon Dogan Bank";
     }
 
-    public Bank(String name, int serial) {
+    Bank(String name, int serial) {
         this.name = name;
         this.serial = serial;
 
         this.trustworthiness = false;
     }
 
-    public Bank(String name, int serial, boolean trustworthiness) {
+    Bank(String name, int serial, boolean trustworthiness) {
         this.name = name;
         this.serial = serial;
         this.trustworthiness = trustworthiness;
@@ -28,10 +28,10 @@ public class Bank {
 
     @Override
     public String toString() {
-        return "Bank{" +
-                "name='" + name + '\'' +
-                ", serial=" + serial +
-                ", trustworthiness=" + trustworthiness +
-                '}';
+        return "\n----------------------------" +
+                "\nname: '" + name + '\'' +
+                "\nserial: " + serial +
+                "\ntrustworthiness: " + trustworthiness +
+                "\n----------------------------";
     }
 }

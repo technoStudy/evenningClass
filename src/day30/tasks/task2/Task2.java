@@ -11,7 +11,8 @@ package day30.tasks.task2;
 public class Task2 {
 
     public static void main(String[] args) {
-            
+        Bank bank1 = new Bank();
+        System.out.println(bank1);
     }
 
 }
