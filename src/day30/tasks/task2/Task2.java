@@ -19,6 +19,10 @@ public class Task2 {
 
         Bank bank3 = new Bank("BOA", 123123, false);
         System.out.println(bank3);
+
+        Bank bank4 = new Bank();
+        bank4.name = "Techno Bank";
+        System.out.println(bank4);
     }
 
 }

@@ -32,7 +32,7 @@ public class Bank {
         this.isClosed = isClosed;
     }
 
-    @Override
+
     public String toString() {
         return "\n----------------------------" +
                 "\nname: '" + name + '\'' +
