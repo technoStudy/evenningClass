@@ -7,23 +7,29 @@ package day30.tasks.task2;
 public class Bank {
     String name;
     int serial;
-    boolean trustworthiness;
+    String address;
 
+    boolean isClosed;
+
+    //1. Constructor: default -> no parameters
     Bank() {
         name = "Falcon Dogan Bank";
+
     }
 
+    //2. Constructor: with 2 parameters
     Bank(String name, int serial) {
         this.name = name;
         this.serial = serial;
-
-        this.trustworthiness = false;
+        this.address = "Not defined";
+        this.isClosed = true;
     }
 
-    Bank(String name, int serial, boolean trustworthiness) {
+    //3.  Constructor: with 3 parameters
+    Bank(String name, int serial, boolean isClosed) {
         this.name = name;
         this.serial = serial;
-        this.trustworthiness = trustworthiness;
+        this.isClosed = isClosed;
     }
 
     @Override
@@ -31,7 +37,8 @@ public class Bank {
         return "\n----------------------------" +
                 "\nname: '" + name + '\'' +
                 "\nserial: " + serial +
-                "\ntrustworthiness: " + trustworthiness +
+                "\nisClosed: " + isClosed +
+                "\naddress: " + address +
                 "\n----------------------------";
     }
 }
