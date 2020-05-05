@@ -10,7 +10,7 @@ create test to check "checkEvenNumber" method
 public class TestNumbers {
 
     @Test
-    public void testCheckEvenNumber_with_4() {
+    public void testCheckEvenNumber_with_even() {
         Numbers nums = new Numbers();
         boolean actual = nums.checkEvenNumber(4);
 
@@ -19,12 +19,20 @@ public class TestNumbers {
     }
 
     @Test
-    public void testCheckEvenNumber_with_3() {
+    public void testCheckEvenNumber_with_odd() {
         Numbers nums = new Numbers();
         boolean actual = nums.checkEvenNumber(3);
 
         // Assert.assertEquals(true, actual);
         Assert.assertFalse(actual);
+    }
+
+    @Test
+    public void testCheckEvenNumber_with_negative() {
+    }
+
+    @Test
+    public void testCheckEvenNumber_with_zero() {
     }
 
 }
