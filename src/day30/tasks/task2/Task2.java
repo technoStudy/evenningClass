@@ -9,4 +9,9 @@ package day30.tasks.task2;
 // in Task2 class create at least 4 object of Bank class
 // call method to get attributes and print it
 public class Task2 {
+
+    public static void main(String[] args) {
+            
+    }
+
 }
