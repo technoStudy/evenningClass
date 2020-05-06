@@ -1,3 +1,4 @@
+***Part 1***
 create class Student
 with private 2 fields: name, age
 
@@ -5,3 +6,6 @@ also, create private "default constructor"
 and public constructor that initialize all attributes
 
 create objects of Student class in Task2.java
+
+***Part 2***
+make some workarounds, and try to update name of Student
