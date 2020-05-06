@@ -7,6 +7,10 @@ public class Car {
         this.model = model;
     }
 
+    public Car(int x, int y){
+        this("super model");
+    }
+
     public void print() {
         String model = "Ford";
         System.out.println("My car model is: " + model);
