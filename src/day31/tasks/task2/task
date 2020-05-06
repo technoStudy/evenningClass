@@ -1,0 +1,7 @@
+create class Student
+with private 2 fields: name, age
+
+also, create private "default constructor"
+and public constructor that initialize all attributes
+
+create objects of Student class in Task2.java
