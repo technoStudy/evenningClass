@@ -1,0 +1,20 @@
+Will this code work without compile error?
+
+package pack1;
+
+public class A
+{
+    protected A()
+    {
+        //protected constructor
+    }
+}
+
+package pack2;
+
+import pack1.A;
+
+class B
+{
+    A a = new A();
+}
