@@ -29,6 +29,6 @@
 * [Day 28.](src/day28) Class & Methods
 * [Day 29.](src/day29) Non-static method & static method
 * [Day 30.](src/day30) Constructors, this, Test
-* [Day 31.](src/day31) 
-* [Day 32.](src/day32) 
+* [Day 31.](src/day31) Java Access Modifiers
+* [Day 32.](src/day32) Java Non-Access Modifiers
 * [Day 33.](src/day33)   
