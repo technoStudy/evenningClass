@@ -11,6 +11,15 @@ public class School {
         school.students.add(new Person("Max", "01/01/90","Red"));
         school.students.add(new Person("Aliya", "05/05/89","Gray"));
 
+
+        ArrayList<Person> newList = new ArrayList<>();
+        newList.add(new Person("Dos","01/01/89","brown"));
+        newList.add(new Person("Serdar","02/01/89","brown"));
+
+
+        // cannot do this, because school.students is final variable
+        // school.students = newList;
+        school.students.addAll(newList);
     }
 
 }
