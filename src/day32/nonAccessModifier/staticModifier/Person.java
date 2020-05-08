@@ -1,8 +1,10 @@
 package day32.nonAccessModifier.staticModifier;
 
 public class Person {
+    //class member
     private static String planetName = "Earth";
 
+    //instance member
     private String fullName;
 
     private void print() {
@@ -18,7 +20,7 @@ public class Person {
 
         Person person2 = new Person();
         person2.fullName = "Max Brown";
-        person2.planetName = "Mars";
+        Person.planetName = "Mars";
         person2.print();
 
         System.out.println("After expedition");
