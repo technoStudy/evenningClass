@@ -6,6 +6,9 @@ public class Task2 {
         Counter c1 = new Counter();
         System.out.println(c1);
 
+        new Counter();
+        new Counter();
+
         Counter c2 = new Counter();
         System.out.println(c2);
     }

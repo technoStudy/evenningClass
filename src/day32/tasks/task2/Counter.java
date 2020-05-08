@@ -6,7 +6,7 @@ HINT:
 2. add static attribute [int count = 0]
 3. increment value of count in default constructor of Counter class
  */
-public class Counter {
+public class Counter extends Object {
     private static int count = 0;
 
     public Counter() {
