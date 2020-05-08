@@ -2,7 +2,8 @@ package day32.nonAccessModifier.finalModifier;
 
 /*
 final
-Attributes and methods cannot be overridden/modified
+methods cannot be overridden
+variable can be initialized only once
 
  */
 public class JavaFinalModifier {
