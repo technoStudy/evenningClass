@@ -6,7 +6,7 @@ public class Sample {
 
 //        System.out.println("First element: " + a[0]);
         for (String argument : arr) {
-            System.out.println(argument);
+            System.out.print(argument+" ");
         }
     }
 
