@@ -26,6 +26,7 @@ public class Person {
         System.out.println("After expedition");
         person1.print();
         person2.print();
+
     }
 
 }
