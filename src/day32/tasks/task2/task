@@ -1,0 +1,9 @@
+***Part 1***
+Write a program that will increase count every time
+when you create an object,
+write toString method to print count
+
+HINT:
+1. create class Counter
+2. add static attribute [int count = 0]
+3. increment value of count in default constructor of Counter class

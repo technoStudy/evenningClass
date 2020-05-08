@@ -21,7 +21,7 @@ public class Ex1 {
 //    }
 //    void main5(String[] args) {
 //    }
-    
+
 //    public static void main(String a[]) {
 //        //valid
 //    }
