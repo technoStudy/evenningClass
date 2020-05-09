@@ -16,12 +16,15 @@ public class Task {
             nums[i] = Integer.parseInt(args[i]);
         }
 
-        Arrays.sort(nums);
-        System.out.println("Sorted: "+Arrays.toString(nums));
+        main(nums);
+    }
 
-        int max = nums[nums.length-1];
+    public static void main(int[] args){
+        Arrays.sort(args);
+        System.out.println("Sorted: " + Arrays.toString(args));
+
+        int max = args[args.length - 1];
 
         System.out.println("Maximum is: " + max);
-
     }
 }
