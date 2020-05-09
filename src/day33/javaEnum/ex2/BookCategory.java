@@ -1,5 +1,5 @@
 package day33.javaEnum.ex2;
 
 public enum BookCategory {
-    FICTION, HISTORY, DRAMA, ROMANCE, COMEDY, SCIENCE, HORROR;
+    FICTION, HISTORY, DRAMA, ROMANCE, COMICS, SCIENCE, HORROR;
 }

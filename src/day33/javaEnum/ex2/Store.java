@@ -5,19 +5,18 @@ import java.util.ArrayList;
 public class Store {
 
     public static void main(String[] args) {
-        Store antStore = new Store();
+
+        // print books where BookCategory == DRAMA
     }
 
-    //Part1
-    //given arrayList of books, print only books with FANTASY category
-    //12:05
-    public ArrayList<Book> getBooks() {
+
+    public ArrayList<Book> getAllBooks() {
         ArrayList<Book> list = new ArrayList<>();
-        Book book1 = new Book("To Kill Mockinbird", BookCategory.NOVEL);
-        Book book2 = new Book("Investing 101", BookCategory.ECONOMY);
-        Book book3 = new Book("Neuromancer", BookCategory.FICTION);
-        Book book4 = new Book("Leila Mecnun", BookCategory.CLASSIC);
-        Book book5 = new Book("The Witcher", BookCategory.FANTASY);
+        Book book1 = new Book("Spider-man", BookCategory.COMICS);
+        Book book2 = new Book("Nomads", BookCategory.HISTORY);
+        Book book3 = new Book("Java in 3 month", BookCategory.HORROR);
+        Book book4 = new Book("Superman", BookCategory.COMICS);
+        Book book5 = new Book("Kite Runner", BookCategory.DRAMA);
 
         list.add(book1);
         list.add(book2);
@@ -27,5 +26,4 @@ public class Store {
 
         return list;
     }
-
 }
