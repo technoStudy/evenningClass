@@ -15,8 +15,21 @@ public class Store {
         ArrayList<Book> allBooks = amazonStore.getAllBooks();
 
         for (Book book : allBooks) {
-            if (book.getBookCategory() == BookCategory.COMICS) {
-                System.out.println(book);
+//            if (book.getBookCategory() == BookCategory.COMICS) {
+//                System.out.println(book);
+//            }
+
+            BookCategory category = book.getBookCategory();
+
+            switch (category){
+                case COMICS:
+                    System.out.println("===Funny comics===");
+                    System.out.println(book);
+                    break;
+                case HORROR:
+                    System.out.println("===Horror in my nightmares===");
+                    System.out.println(book);
+                    break;
             }
         }
 
