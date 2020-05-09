@@ -8,6 +8,11 @@ enum Level {
 
 class Ex1{
 
+    //package-private/default
+    Ex1(){
+
+    }
+
     public static void main(String[] args) {
         Level level = Level.HIGH;
 
