@@ -7,6 +7,19 @@ public class Store {
     public static void main(String[] args) {
 
         // print books where BookCategory == DRAMA
+
+        //Hint: change/add something in Book.java, if, loop
+
+
+        Store amazonStore = new Store();
+        ArrayList<Book> allBooks = amazonStore.getAllBooks();
+
+        for (Book book : allBooks) {
+            if (book.getBookCategory() == BookCategory.COMICS) {
+                System.out.println(book);
+            }
+        }
+
     }
 
 

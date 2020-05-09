@@ -9,6 +9,10 @@ public class Book {
         this.bookCategory = bookCategory;
     }
 
+    public BookCategory getBookCategory(){
+        return this.bookCategory;
+    }
+
     public String toString() {
         return "Book" +
                 "\nname: " + name +
