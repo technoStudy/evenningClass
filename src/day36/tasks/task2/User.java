@@ -1,6 +1,7 @@
 package day36.tasks.task2;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 //1. create class User with 2 field: name and registration(LocalDateTime)
 public class User {
@@ -15,7 +16,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "name='" + name + '\'' +
-                ", registration=" + registration +
+                ", registration=" + registration.format(DateTimeFormatter.ofPattern("HH:mm:ss")) +
                 '}';
     }
 }
