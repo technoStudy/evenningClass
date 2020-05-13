@@ -1,0 +1,6 @@
+Create java application that registers user and check registration time:
+1. create class User with 2 field: name and registration(LocalDateTime)
+2. create class Registration, use Scanner to create users
+3. add as many users as you want until you enter word "exit"(Hint: loop, arrayList)
+4. print users who registered at first 30 seconds of any minute(Hint: sec <= 30)
+

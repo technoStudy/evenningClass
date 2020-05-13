@@ -25,4 +25,16 @@ public class Task1 {
         Assert.assertEquals(2, actual.getDays());
     }
 
+    //Write a java method to calculate your age
+    public int getAge(LocalDate dob) {
+        return Period.between(dob, LocalDate.now()).getYears();
+    }
+
+    @Test
+    public void testGetAge() {
+        int age = getAge(LocalDate.of(1970, 3, 1));
+
+        Assert.assertEquals(50, age);
+    }
+
 }
