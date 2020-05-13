@@ -24,4 +24,9 @@ public class Registration {
 
         return userList;
     }
+
+    //4. print users who registered at first 30 seconds of any minute(Hint: sec <= 30)
+    public void printUsers(ArrayList<User> users) {
+        //coding
+    }
 }
