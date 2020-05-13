@@ -1,5 +1,6 @@
 package day36.tasks.task2;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -27,6 +28,11 @@ public class Registration {
 
     //4. print users who registered at first 30 seconds of any minute(Hint: sec <= 30)
     public void printUsers(ArrayList<User> users) {
-        //coding
+        for(User user : users) {
+            LocalDateTime registration = user.registration;
+            if(registration.getSecond() <= 30) {
+                System.out.println(user);
+            }
+        }
     }
 }

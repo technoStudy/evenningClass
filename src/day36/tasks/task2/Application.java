@@ -9,9 +9,6 @@ public class Application {
         Registration examRegistration = new Registration();
         ArrayList<User> users = examRegistration.register();
 
-        for(User user : users) {
-            System.out.println(user);
-        }
-
+        examRegistration.printUsers(users);
     }
 }
