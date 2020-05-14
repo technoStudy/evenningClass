@@ -1,0 +1,3 @@
+create application that converts text to integer
+input should be String: Scanner
+output should be integer

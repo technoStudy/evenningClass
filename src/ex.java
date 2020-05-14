@@ -5,4 +5,12 @@ public class ex {
 
         System.out.println(e);
     }
+
+    public void run(){
+        throw new RuntimeException("me");
+    }
+
+    public void run2() throws Exception {
+        throw new Exception("me");
+    }
 }
