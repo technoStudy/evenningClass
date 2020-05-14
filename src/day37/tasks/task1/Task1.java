@@ -15,8 +15,11 @@ public class Task1 {
 
             System.out.println("Your integer is: " + number);
         } catch(Exception ex) {
-            System.out.println("Invalid input, please provide number in digit format");
+            ex.printStackTrace();
+//            System.out.println("Invalid input, please provide number in digit format");
         }
+
+        NumberFormatException e;
 
     }
 }
