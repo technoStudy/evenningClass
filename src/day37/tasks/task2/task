@@ -1,0 +1,7 @@
+create application that helps you to buy a car & drive it:
+
+1. create method 'buy' with enum parameter as conditions of car(NEW, OLD),
+and throws checked/expected exception if its old
+
+2. create method 'drive' with String parameter as weather,
+and throws unchecked/runtime exception if weather is not "normal"
