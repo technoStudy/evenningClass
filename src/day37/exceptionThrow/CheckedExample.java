@@ -2,7 +2,7 @@ package day37.exceptionThrow;
 
 public class CheckedExample {
 
-    public static void goOutside(int temperature) throws Exception{
+    public static void goOutside(int temperature) throws Exception {
         if(temperature < 10) {
             Exception ex = new Exception("It freezing outside, dont go out!!!");
             throw ex;

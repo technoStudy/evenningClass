@@ -5,7 +5,7 @@ package day37.exceptionThrow;
 public class UncheckedExample {
 
     ///username should have at least 5 characters
-    public static void checkUsername(String username) throws RuntimeException {
+    public static void checkUsername(String username) {
         if(username == null) {
             throw new NullPointerException("username doesnt exist, it is null");
         }
