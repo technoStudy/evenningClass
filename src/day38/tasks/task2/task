@@ -1,0 +1,5 @@
+Create application that calculates average price of item(apple):
+
+1. create method that gets price from user until input given by user is "exit"
+2. add prices to ArrayList
+3. create method to get average prices
