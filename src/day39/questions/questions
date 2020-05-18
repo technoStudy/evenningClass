@@ -1,0 +1,25 @@
+1. What is JDK, JRE and JVM?
+2. Explain  "public static void main(String args[])" in Java ?, can we have multiple main methods?
+3. Why Java is platform independent?
+4. What are wrapper classes in Java?, why we need wrapper classes?
+5. What are constructors in Java?
+6. Can we have multiple constructors in the class?, how?
+7. What is the difference between Constructor vs method?
+8. Can we reuse constructors? if yes, how?
+9. What is the difference between break and continue statements?
+9.1 What if you have nested loop, what then?
+10. Differentiate between static and non-static methods in Java.
+11. Can we call static method using instance variable?
+12. What type of the collections do you use?
+13. What is the difference between LinkedHashSet and TreeSet?
+14. What is the difference between a local variable and an instance variable?
+15. What is final keyword in Java?
+16. What purpose do the keywords final, finally in Java?
+17. What are the different ways to handle exceptions?
+18. What can not we use as a variable/method/class names?
+19. What is the difference between an array and an array list?
+20. Difference between String, StringBuilder, and StringBuffer?
+21. Explain about Public and Private access specifiers?
+22. Which members of class can have access modifiers?
+23. What is the difference between equals() and == in Java?
+24. What are the concepts of OOP in Java?
