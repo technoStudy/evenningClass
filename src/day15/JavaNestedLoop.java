@@ -8,11 +8,13 @@ public class JavaNestedLoop {
 
             for(int j = 0; j < 5; j++) { // inner loop
                 System.out.println( "i:" + i + " j:" + j );
+                break;
             }
 
+
+
             System.out.println();
-
-
+            continue;
         }
 
     }

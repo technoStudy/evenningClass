@@ -1,22 +1,70 @@
 package day39.questions;
 
+
+import java.time.LocalTime;
+
+class Evening{
+    public String weather;
+    public int temperature;
+
+    public Evening(String weather){
+        //this(); recursive constructor invocation
+        this.weather = weather;
+        this.temperature = 65;
+    }
+
+    public Evening(){
+        this("Sunny", 100);
+        this.temperature = 100;
+
+
+        //this.weather = "Sunny";
+    }
+
+
+    public Evening(String w, int t) {
+    }
+}
+
+
+class Iftar{
+    LocalTime time;
+
+    public Iftar(){
+    }
+
+    public Iftar(LocalTime time){
+        this.time = time;
+    }
+}
+
+
 public class Q8 {
 
-    public int b;
+    public Q8(boolean b){
+        if(b){
+            return;
+        }
 
-    public Q8() {
-        System.out.println("Default constructor");
+        System.out.println("default constructor");
+
     }
-
-    public Q8(int a) {
-        this();
-
-        //this.b;
-        System.out.println("Constructor with int param");
-    }
-
 
     public static void main(String[] args) {
-        Q8 q8 = new Q8(4);
+//        Evening e = new Evening();
+//        e.temperature = 100;
+
+//        Q8 q = new Q8(false);
+//        q = new Q8(true);
+
+
+
+        Iftar monday = new Iftar();
+        System.out.println("Time1: " + monday.time);
+
+        monday = new Iftar(LocalTime.now());
+        System.out.println("Time2: " + monday.time);
+
     }
+
 }

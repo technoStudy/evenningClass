@@ -18,5 +18,20 @@ public class JavaLabeledLoops {
 
         System.out.println( "End of code" );
 
+
+        myIf: if(5<4){
+
+        }
+
+        String a = "";
+        mySwitch: switch (a){
+
+        }
+
+        myTry: try{
+
+        }catch (Exception e){
+
+        }
     }
 }

@@ -4,7 +4,7 @@ public class JavaVoidMethods {
 
     public static void main(String[] args) {
         // running/executing printHello method
-        printHello();
+        JavaVoidMethods.printHello();
 
         // running/executing printName method with one parameter
         printName("John");
