@@ -4,8 +4,12 @@ package day41;
 public class User {
 
     //Declare the variables of a class as private.
+    private long id;
     private String username;
     private String password;
+    private boolean active;
+    private boolean certificate;
+    private Boolean registered;
 
     public User(String username, String password) {
         setUsername(username);
@@ -39,6 +43,51 @@ public class User {
     }
 
     public String getPassword(){
+
+        //throw exception if user is admin
+        //user is admin when id = 1
+        if(this.id == 1){
+            throw new RuntimeException("admins password cannot be shown");
+        }
         return this.password;
+    }
+
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setCertificate(boolean certificate){
+        this.certificate = certificate;
+    }
+
+    public boolean hasCertificate(){
+        return this.certificate;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public boolean isCertificate() {
+        return certificate;
+    }
+
+    public Boolean getRegistered() {
+        //wrapper Boolean can have
+        // true, false, null
+        return registered;
+    }
+
+    public void setRegistered(Boolean registered) {
+        this.registered = registered;
     }
 }
