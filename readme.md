@@ -37,4 +37,5 @@
 * [Day 36.](src/day36) Try, Catch and Finally
 * [Day 37.](src/day37) Java Exceptions, multi catch
 * [Day 38.](src/day38) Java Exceptions, Into To OOP
-* [Day 39.](src/day39) Interview Questions(Java, from topics we've passed)
+* [Day 39.](src/day39) Github
+* [Day 40.](src/day40) Interview Questions(Java, from topics we've passed)

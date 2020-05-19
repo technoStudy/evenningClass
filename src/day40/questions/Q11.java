@@ -1,4 +1,4 @@
-package day39.questions;
+package day40.questions;
 
 import java.util.List;
 import java.util.Map;
