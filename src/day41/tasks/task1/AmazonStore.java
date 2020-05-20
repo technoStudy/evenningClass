@@ -23,6 +23,18 @@ Audible Audiobook $0.00
  */
 public class AmazonStore {
 
+    public void wrongBooks() {
+//        Little Women
+//        by Jane Austen and Coralie Bickford-Smith | Nov 24, 2015
+//        Hardcover $109.61
+
+        //cant create a book without "Leather Bound" and "Audiobook" prices
+//        WrongBook book = new WrongBook("Little Women",
+//                null,
+//                109.61,
+//                null);
+    }
+
     public static void main(String[] args) {
         Book book1 = new Book();
         book1.setName("Mark Twain: Five Novels (Leather-bound Classics)");
@@ -54,7 +66,7 @@ public class AmazonStore {
                 null
         );
 
-        Book book3 = new Book("Little Women (Puffin in Bloom)","Louisa May Alcott", LocalDate.of(2014,Month.AUGUST,28));
+        Book book3 = new Book("Little Women (Puffin in Bloom)", "Louisa May Alcott", LocalDate.of(2014, Month.AUGUST, 28));
         book3.setHardCoverPrice(11.99);
         book3.setAudioBookPrice(0.0);
     }
