@@ -1,4 +1,4 @@
-package day41;
+package day41.encapsulation;
 
 
 public class Ex1 {

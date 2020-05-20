@@ -1,0 +1,27 @@
+https://www.amazon.com/s?k=classic+books&i=stripbooks&ref=nb_sb_noss_1
+Task: to check if book has 3 prices, (Leather Bound, Hardcover, Audible Audiobook)
+
+1: create class Book
+name, author, publishedDate, leatherBoundPrice, hardCoverPrice, audioBookPrice
+**encapsulate Book**
+
+2: **Create books as with following data:**
+Mark Twain: Five Novels (Leather-bound Classics)
+by Mark Twain and Elizabeth Boyle Machlan PhD | Nov 1, 2011
+Leather Bound $16.69
+Hardcover $10.49
+Audible Audiobook $0.00
+
+
+Jane Austen: The Complete Works 7-Book Boxed Set: Classics hardcover boxed set (Penguin Clothbound Classics)
+by Jane Austen and Coralie Bickford-Smith | Nov 24, 2015
+Hardcover $109.61
+
+Little Women (Puffin in Bloom)
+by Louisa May Alcott  | Aug 28, 2014
+Hardcover $11.99
+Audible Audiobook $0.00
+
+3: check if book has three prices:
+add method named **hasThreePrices** which will check if book has all three (Leather Bound, Hardcover, Audible Audiobook)
+prices in it

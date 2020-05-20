@@ -1,4 +1,4 @@
-package day41;
+package day41.encapsulation;
 
 import org.junit.Assert;
 import org.junit.Test;

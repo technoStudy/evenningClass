@@ -1,4 +1,4 @@
-package day41;
+package day41.encapsulation;
 
 //To achieve encapsulation in Java
 public class User {
