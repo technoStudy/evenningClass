@@ -16,7 +16,14 @@ public class Book {
     private Double hardCoverPrice;
     private Double audioBookPrice;
 
-    public Book(){}
+    public Book() {
+    }
+
+    public Book(String name, String author, LocalDate publishedDate) {
+        this.name = name;
+        this.author = author;
+        this.publishedDate = publishedDate;
+    }
 
     public Book(String name, String author, LocalDate publishedDate, Double leatherBoundPrice, Double hardCoverPrice, Double audioBookPrice) {
         this.name = name;
@@ -73,5 +80,14 @@ public class Book {
 
     public void setAudioBookPrice(Double audioBookPrice) {
         this.audioBookPrice = audioBookPrice;
+    }
+
+    /*
+    check if book has three prices:
+    add method named **hasThreePrices** which will check if book has all three (Leather Bound, Hardcover, Audible Audiobook)
+    prices in it
+     */
+    public boolean hasThreePrices() {
+        return leatherBoundPrice != null && hardCoverPrice != null && audioBookPrice != null;
     }
 }

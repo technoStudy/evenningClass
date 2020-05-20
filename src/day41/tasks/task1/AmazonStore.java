@@ -32,18 +32,30 @@ public class AmazonStore {
         book1.setHardCoverPrice(10.49);
         book1.setAudioBookPrice(0.0);
 
-        Book book2 = new Book("Mark Twain: Five Novels (Leather-bound Classics)",
+        Book book1a = new Book("Mark Twain: Five Novels (Leather-bound Classics)",
                 "Mark Twain and Elizabeth Boyle Machlan PhD",
                 LocalDate.of(2011, Month.NOVEMBER, 1),
                 16.69,
                 10.49,
                 0.0
-                );
+        );
 
+        Book book2 = new Book();
+        book2.setName("Jane Austen: The Complete Works 7-Book Boxed Set");
+        book2.setAuthor("Jane Austen and Coralie Bickford-Smith");
+        book2.setPublishedDate(LocalDate.of(2015, Month.NOVEMBER, 24));
+        book2.setHardCoverPrice(109.61);
 
+        Book book2a = new Book("Jane Austen: The Complete Works 7-Book Boxed Set",
+                "Jane Austen and Coralie Bickford-Smith",
+                LocalDate.of(2015, Month.NOVEMBER, 24),
+                null,
+                109.61,
+                null
+        );
 
-//        Jane Austen: The Complete Works 7-Book Boxed Set: Classics hardcover boxed set (Penguin Clothbound Classics)
-//        by Jane Austen and Coralie Bickford-Smith | Nov 24, 2015
-//        Hardcover $109.61
+        Book book3 = new Book("Little Women (Puffin in Bloom)","Louisa May Alcott", LocalDate.of(2014,Month.AUGUST,28));
+        book3.setHardCoverPrice(11.99);
+        book3.setAudioBookPrice(0.0);
     }
 }
