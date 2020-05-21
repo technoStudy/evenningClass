@@ -10,5 +10,8 @@ public class Bank {
         Account account2 = new Account(Currency.EU);
         account2.setNumber("12358749534");
         account2.setBalance(500);
+
+        System.out.println(account1);
+        System.out.println(account2);
     }
 }

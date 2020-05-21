@@ -27,4 +27,10 @@ public class Account {
     public void setBalance(double balance) {
         this.balance = balance;
     }
+
+
+    public String toString() {
+        return "\nnumber=" + number +
+                "\nbalance=" + balance;
+    }
 }
