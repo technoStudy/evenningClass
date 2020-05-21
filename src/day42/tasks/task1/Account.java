@@ -24,8 +24,23 @@ public class Account {
         return balance;
     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
+    //withdraw and deposit
+    public void withdraw(double amount) {
+        //assume bank doesnt allow negative balance
+        if(balance < amount) { // balance - amount < 0
+            throw new RuntimeException("Not enough money in balance to withdraw, balance:" + balance);
+        }
+
+        balance -= amount;
+    }
+
+    public void deposit(double amount) {
+        //assume bank has limit as 5000 for single transaction
+        if(amount > 5000) {
+            throw new RuntimeException("Exceed single transaction amount, amount: " + amount);
+        }
+
+        balance += amount;
     }
 
 
