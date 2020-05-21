@@ -1,0 +1,9 @@
+1. create class Account with public fields: number, balance (do not create anything extra yet)
+create class Hacker and create instances of Account class
+
+2. Encapsulate Account class
+create class Bank and create instances of Account class
+
+3. remove setter from balance field and add two more methods
+withdraw and deposit
+
