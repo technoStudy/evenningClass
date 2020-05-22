@@ -1,0 +1,8 @@
+Part1. Create class School with 5 attributes
+and with extra one attribute as List<Student> students(which means you need to create class Student)
+encapsulate School and Student class
+create 2 schools and at least 3 students in each school
+
+Part2. add field schoolSize to School class, which represents maximum student size that school can have
+create method to add student to your school named as registerStudent
+(dont forget about schoolSize)
