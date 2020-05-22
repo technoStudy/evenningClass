@@ -28,7 +28,7 @@ public class Account {
     public void withdraw(double amount) {
         //assume bank doesnt allow negative balance
         if(balance < amount) { // balance - amount < 0
-            throw new RuntimeException("Not enough money in balance to withdraw, balance:" + balance);
+            throw new RuntimeException("Not enough money in balance to withdraw, balance: " + currency.getSymbol() + balance);
         }
 
         balance -= amount;
@@ -37,7 +37,7 @@ public class Account {
     public void deposit(double amount) {
         //assume bank has limit as 5000 for single transaction
         if(amount > 5000) {
-            throw new RuntimeException("Exceed single transaction amount, amount: " + amount);
+            throw new RuntimeException("Exceed single transaction amount, amount: " + currency.getSymbol() + amount);
         }
 
         balance += amount;
@@ -45,7 +45,7 @@ public class Account {
 
 
     public String toString() {
-        return "\nnumber=" + number +
-                "\nbalance=" + balance;
+        return "\nnumber=" + getNumber() +
+                "\nbalance=" + getBalance();
     }
 }
