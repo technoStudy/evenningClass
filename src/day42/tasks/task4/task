@@ -1,0 +1,3 @@
+create class Student with five attributes(you can use student from task2)
+and extra three attributes as:
+List<Relative> relatives, Status status, List<Lesson> lessons
