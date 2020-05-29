@@ -9,11 +9,15 @@ public class School {
     private List<Employee> employees;
 
     public List<Student> registerStudent(Student student){
-        return null;
+        students.add(student);
+
+        return students;
     }
 
     public List<Employee> registerEmployee(Employee employee){
-        return null;
+        employees.add(employee);
+
+        return employees;
     }
 
     @Override
