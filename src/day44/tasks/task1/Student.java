@@ -20,11 +20,12 @@ public class Student extends Person {
         this.fee = fee;
     }
 
+
     @Override
     public String toString() {
-        return "Student{" +
-                "school=" + school +
-                ", fee=" + fee +
-                '}';
+        return "\n\nStudent" +
+                super.toString() +
+                "\nfee: " + getFee();
     }
+
 }

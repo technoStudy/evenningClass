@@ -3,6 +3,11 @@ package day44.tasks.task1;
 public class Person {
     private String name;
     private String address;
+    private String phoneNumber;
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
 
     public String getName() {
         return name;
@@ -22,9 +27,8 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                '}';
+        return "\nname: " + getName() +
+                "\naddress: " + getAddress() +
+                "\nphone: " + getPhoneNumber();
     }
 }

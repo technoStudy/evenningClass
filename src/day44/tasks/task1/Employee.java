@@ -22,9 +22,8 @@ public class Employee extends Person {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "school=" + school +
-                ", salary=" + salary +
-                '}';
+        return "\n\nEmployee" +
+                super.toString() +
+                "\nsalary: " + getSalary();
     }
 }
