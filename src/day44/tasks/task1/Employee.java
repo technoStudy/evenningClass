@@ -4,6 +4,13 @@ public class Employee extends Person {
     private School school;
     private double salary;
 
+    public Employee(String name, String address, School school, double salary) {
+        setName(name);
+        setAddress(address);
+        setSchool(school);
+        setSalary(salary);
+    }
+
     public School getSchool() {
         return school;
     }
@@ -24,6 +31,7 @@ public class Employee extends Person {
     public String toString() {
         return "\n\nEmployee" +
                 super.toString() +
+                "\nschool: " + getSchool().getName() +
                 "\nsalary: " + getSalary();
     }
 }
