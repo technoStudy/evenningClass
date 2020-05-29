@@ -43,3 +43,4 @@
 * [Day 42.](src/day42) Encapsulation tasks
 * [Day 43.](src/day43) OOP: Inheritance
 * [Day 44.](src/day44) Inheritance tasks
+* [Day 45.](src/day45) Recap Day
