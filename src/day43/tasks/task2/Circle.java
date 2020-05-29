@@ -8,4 +8,10 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                '}';
+    }
 }
