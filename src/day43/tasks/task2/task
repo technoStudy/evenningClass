@@ -12,4 +12,4 @@ Part 4: Override toString method in each shape
 
 Part 5: Create class GeometryApp, and create instances of you shapes and print them(but debug them before)
 
-Part 6: create method getArea, getPerimeter and calculate them
+Part 6: Create method getArea, getPerimeter and calculate them

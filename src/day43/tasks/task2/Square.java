@@ -10,6 +10,8 @@ public class Square extends Rectangle {
     public String toString() {
         return "Square{" +
                 "side=" + getWidth() +
+                ", area=" + getArea() +
+                ", perimeter=" + getPerimeter() +
                 '}';
     }
 }
