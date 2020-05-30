@@ -3,6 +3,7 @@ package day45.tasks.task2.documents;
 public class Slide {
     private String title;
     private String body;
+    //textBox
 
     public String getTitle() {
         return title;
