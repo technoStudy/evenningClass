@@ -1,0 +1,24 @@
+Design MSOffice documents
+
+Word document ->
+  fileName: String
+  docx:FileFormat
+
+  pages: List
+    header
+    body
+    footer
+
+Excel document ->
+  fileName: String
+  xlsx:FileFormat
+
+  cells[][]
+
+Presentation document ->
+  fileName: String
+  pptx:FileFormat
+
+  slides: List
+
+OfficeSuiteApp - class where you create object of documents
