@@ -44,3 +44,5 @@
 * [Day 43.](src/day43) OOP: Inheritance
 * [Day 44.](src/day44) Inheritance tasks
 * [Day 45.](src/day45) Recap Day
+* [Day 46.](src/day46) Github
+* [Day 47.](src/day47) Abstractionaase
