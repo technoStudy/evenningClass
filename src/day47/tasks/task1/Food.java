@@ -4,7 +4,7 @@ public abstract class Food {
 
     public abstract String taste();
 
-    public abstract boolean eatable();
+    public abstract boolean edible();
 
     public abstract boolean isDesert();
 }

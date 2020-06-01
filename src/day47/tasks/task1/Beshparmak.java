@@ -4,12 +4,12 @@ public class Beshparmak extends Food {
 
     @Override
     public String taste() {
-        return null;
+        return "best food ever";
     }
 
     @Override
-    public boolean eatable() {
-        return false;
+    public boolean edible() {
+        return true;
     }
 
     @Override

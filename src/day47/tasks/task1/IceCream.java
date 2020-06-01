@@ -4,16 +4,16 @@ public class IceCream extends Food {
 
     @Override
     public String taste() {
-        return null;
+        return "sweet";
     }
 
     @Override
-    public boolean eatable() {
-        return false;
+    public boolean edible() {
+        return true;
     }
 
     @Override
     public boolean isDesert() {
-        return false;
+        return true;
     }
 }

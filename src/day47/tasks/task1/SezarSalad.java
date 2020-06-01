@@ -1,14 +1,15 @@
 package day47.tasks.task1;
 
 public class SezarSalad extends Food {
+
     @Override
     public String taste() {
-        return null;
+        return "fresh, salty";
     }
 
     @Override
-    public boolean eatable() {
-        return false;
+    public boolean edible() {
+        return true;
     }
 
     @Override

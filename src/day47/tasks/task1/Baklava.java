@@ -4,16 +4,21 @@ public class Baklava extends Food {
 
     @Override
     public String taste() {
-        return null;
+        return "very good, delicious, sweet";
     }
 
     @Override
-    public boolean eatable() {
-        return false;
+    public boolean edible() {
+        return true;
     }
 
     @Override
     public boolean isDesert() {
-        return false;
+        return true;
     }
+
+    public String serve(){
+        return "serve with Turkish tea";
+    }
+
 }
