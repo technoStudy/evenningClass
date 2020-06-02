@@ -21,7 +21,8 @@ public abstract class Employee {
 
     @Override
     public String toString() {
-        return "\n\nname: " + name +
+        return "\n" + getClass().getSimpleName() +
+                "\nname: " + name +
                 "\nbaseSalary: " + baseSalary +
                 "\nTC: " + calculateSalary();
     }

@@ -9,5 +9,8 @@ public class HR {
 
         FullTimeEmployee employee1 = new FullTimeEmployee("Mary", 100_000);
         System.out.println(employee1);
+
+
+//        System.out.println(new HR());
     }
 }
