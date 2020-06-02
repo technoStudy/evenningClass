@@ -1,0 +1,8 @@
+**Part 1**
+Design Employee with abstract method calculateSalary()
+with subclasses Contractor and FullTimeEmployee
+add toString method
+
+**Part 2**
+create HR class with main method
+create instances of employees
