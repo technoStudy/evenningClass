@@ -1,0 +1,17 @@
+Design Vehicle in java
+
+**Part 1**
+create abstract class
+create subclass
+
+**Part 2**
+add methods
+add fields
+add constructors
+
+**Part 3**
+create entry point class with main method
+
+
+//bus - people travel seated || standing
+//spaceX - cargo  ||  person
