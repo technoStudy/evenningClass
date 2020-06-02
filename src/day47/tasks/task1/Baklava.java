@@ -17,7 +17,7 @@ public class Baklava extends Food {
         return true;
     }
 
-    public String serve(){
+    public String serve() {
         return "serve with Turkish tea";
     }
 
