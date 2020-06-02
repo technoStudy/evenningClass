@@ -1,0 +1,12 @@
+Design Zoo
+
+**Part 1**
+create abstract class Animal with abstract methods
+create at least 3 subclass of Animal
+
+**Part 2**
+create fields in Animal
+create non abstract methods in Animal(ex: toString)
+
+**Part 3**
+create class Zoo, and create object of animals
