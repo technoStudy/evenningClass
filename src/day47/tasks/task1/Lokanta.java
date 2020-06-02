@@ -9,6 +9,8 @@ public class Lokanta {
 
         Baklava baklava = new Baklava();
 
+        Food.print();
+
 
 
     }
