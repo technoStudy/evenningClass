@@ -1,6 +1,7 @@
 package day47.tasks.task3;
 
 import day47.tasks.task3.bird.Swallow;
+import day47.tasks.task3.cat.BritishShorthair;
 import day47.tasks.task3.cat.Lion;
 import day47.tasks.task3.cat.Tiger;
 import day47.tasks.task3.fish.Salmon;
@@ -23,5 +24,8 @@ public class Zoo {
         Swallow swallow = new Swallow();
         swallow.setName("Pidgeot");
         System.out.println(swallow);
+
+
+        Animal animal = new BritishShorthair();
     }
 }
