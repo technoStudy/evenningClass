@@ -6,6 +6,13 @@ public abstract class AbstractBank {
     private String address;
     private int numberOfEmployees;
 
+    public AbstractBank(String name, String phoneNumber, String address, int numberOfEmployees) {
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+        this.address = address;
+        this.numberOfEmployees = numberOfEmployees;
+    }
+
     public abstract void openAccount();
 
     public abstract void closeAccount();
@@ -27,4 +34,6 @@ public abstract class AbstractBank {
                 ", numberOfEmployees=" + numberOfEmployees +
                 '}';
     }
+
+
 }
