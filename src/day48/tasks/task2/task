@@ -1,0 +1,10 @@
+** Part 1 **
+create abstract Bank
+create 3 subclasses
+
+** Part 2 **
+add abstract methods and implement them in subclasses
+
+** Part 3 **
+create class BankingSystem and create instances of banks
+

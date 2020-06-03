@@ -1,17 +1,17 @@
 package day48.tasks.task1;
 
-import day48.tasks.task1.indivudual.Car;
+import day48.tasks.task1.indivudual.MyCar;
 import day48.tasks.task1.publicTransport.Bus;
 
 public class CityTransports {
 
     public static void main(String[] args) {
-        Car car = new Car();
+        MyCar car = new MyCar();
         car.setName("Jiguli");
         car.setGasType(GasType.REGULAR_GAS);
         car.setCapacity(5);
         car.setId(1);
-        System.out.println(car);
+        System.out.println(car.toString());
 
         Bus bus = new Bus();
         bus.setName("Mercedes");

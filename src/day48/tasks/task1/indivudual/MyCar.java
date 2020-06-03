@@ -1,6 +1,6 @@
 package day48.tasks.task1.indivudual;
 
-public class Car extends AbstractIndividualVehicle {
+public class MyCar extends AbstractIndividualVehicle {
 
     @Override
     public double speed() {
