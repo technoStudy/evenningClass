@@ -1,0 +1,14 @@
+**Part 1**
+create AbstractAnimal with  abstract method sound();
+
+create non-abstract Cat subclass of AbstractAnimal, implement sound
+create non-abstract BritishShortHairCat subclass of Cat, implement sound
+create non-abstract Lion subclass of Cat, implement sound
+create non-abstract Tiger subclass of Cat, implement sound
+
+**Part 2**
+create instances of cats, using Cat reference
+
+
+
+
