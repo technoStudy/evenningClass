@@ -15,6 +15,6 @@ public class Zoo {
         System.out.println(tom);
         System.out.println(simba);
         System.out.println(baghira);
-
     }
+
 }

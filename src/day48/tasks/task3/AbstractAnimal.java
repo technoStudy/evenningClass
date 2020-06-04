@@ -13,7 +13,7 @@ public abstract class AbstractAnimal {
     @Override
     public String toString() {
 
-        return "\n" + getClass().getSimpleName() +
+        return "\n" + super.getClass().getSimpleName() +
                 "\nname: " + name +
                 "\nsound: " + sound();
     }
