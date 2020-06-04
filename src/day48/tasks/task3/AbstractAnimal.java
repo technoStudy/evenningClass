@@ -1,5 +1,8 @@
 package day48.tasks.task3;
 
+
+// 0-100%
+// 25%
 public abstract class AbstractAnimal {
 
     private String name;
