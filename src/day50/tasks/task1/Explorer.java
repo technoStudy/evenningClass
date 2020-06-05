@@ -5,15 +5,8 @@ import day50.tasks.task1.msFiles.*;
 public class Explorer {
 
     public static void main(String[] args) {
-        WordFile file1 = new WordFile();
-        ExcelFile file2 = new ExcelFile();
         PowerPointFile file3 = new PowerPointFile();
-        TxtFile file4 = new TxtFile();
-
-        workWithFile(file1);
-        workWithFile(file2);
         workWithFile(file3);
-        workWithFile(file4);
 
 
     }
@@ -24,6 +17,11 @@ public class Explorer {
         System.out.println(file.read());
         System.out.println(file.save());
         System.out.println(file.close());
+
+        PowerPointFile pptFile = (PowerPointFile) file;
+        System.out.println(pptFile.slides());
+
+
     }
 
 
@@ -37,5 +35,20 @@ public class Explorer {
 //        workWithFile(file3);
 //        System.out.println("----TXT FILE-----");
 //        workWithFile(file4);
+    }
+
+
+    public static void part2(String[] args) {
+        WordFile file1 = new WordFile();
+        ExcelFile file2 = new ExcelFile();
+        PowerPointFile file3 = new PowerPointFile();
+        TxtFile file4 = new TxtFile();
+
+        workWithFile(file1);
+        workWithFile(file2);
+        workWithFile(file3);
+        workWithFile(file4);
+
+
     }
 }

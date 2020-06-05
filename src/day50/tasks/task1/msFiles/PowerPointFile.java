@@ -20,4 +20,9 @@ public class PowerPointFile implements MSOffice {
     public String close() {
         return "close PowerPoint app";
     }
+
+
+    public String slides(){
+        return "showing slides";
+    }
 }
