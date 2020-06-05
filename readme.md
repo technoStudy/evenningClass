@@ -47,3 +47,5 @@
 * [Day 46.](src/day46) Github
 * [Day 47.](src/day47) Abstraction
 * [Day 48.](src/day48) Abstraction tasks
+* [Day 49.](src/day49) Interface
+* [Day 50.](src/day50) Interface  tasks

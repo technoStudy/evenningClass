@@ -1,0 +1,17 @@
+** Part 1**
+create interface MSOffice with methods:
+open(), read(), save(), close()
+
+Add concrete classes as:
+1. WordFile
+2. PowerPointFile
+3. ExcelFile
+4. TxtFile
+
+** Part 2**
+create class Finder/Explorer with two static methods
+1. main(String[] args) - create multiple files
+2. workWithFile(MSOffice file) - call every methods in MSOffice
+
+
+
