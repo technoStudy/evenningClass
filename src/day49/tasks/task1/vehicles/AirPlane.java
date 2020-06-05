@@ -19,5 +19,5 @@ public class AirPlane implements Flying {
 
         return "TROPOSPHERE";
     }
-    
+
 }
