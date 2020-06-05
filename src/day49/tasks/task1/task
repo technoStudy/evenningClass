@@ -1,0 +1,13 @@
+open-ended task, add extra class, interface, abstract class if you want
+
+**part1**
+1. create interface Vehicle with method speed()
+2. add 3 types of vehicle class: Car, AirPlane, Train
+
+**part2**
+add interfaces as:
+1. Flying : fly()
+2. Sailing : sail()
+
+**part3**
+create class SpaceShip
