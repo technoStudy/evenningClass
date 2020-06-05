@@ -1,0 +1,11 @@
+open-ended task, add extra class, interface, abstract class if you want
+
+**part1**
+1. create interface Animal with method food() //what animal eat
+2. add 3 types of animal class: Cat, Swallow, Shark
+
+**part2**
+add interfaces for flying animals and animals in water
+
+**part3**
+create class Duck
