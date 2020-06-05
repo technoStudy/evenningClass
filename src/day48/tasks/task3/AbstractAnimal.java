@@ -1,6 +1,9 @@
 package day48.tasks.task3;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 // 0-100%
 // 25%
 public abstract class AbstractAnimal {
@@ -15,6 +18,8 @@ public abstract class AbstractAnimal {
 
     @Override
     public String toString() {
+
+        List<Integer> list = new ArrayList<>();
 
         return "\n" + super.getClass().getSimpleName() +
                 "\nname: " + name +

@@ -1,7 +1,7 @@
 package day49.javaInterface.example1;
 
 //to inherit from multiple interfaces just use comma
-public class ToyotaPrius implements Electric, Gas {
+public class ToyotaPrius extends AbstractVehicle implements Electric, Gas {
 
     @Override
     public String changeBattery() {
