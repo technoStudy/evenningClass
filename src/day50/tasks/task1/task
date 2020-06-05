@@ -11,7 +11,6 @@ Add concrete classes as:
 ** Part 2**
 create class Finder/Explorer with two static methods
 1. main(String[] args) - create multiple files
-2. workWithFile(MSOffice file) - call every methods in MSOffice
-
+2. workWithFile(MSOffice file) - call every method in MSOffice interface
 
 
