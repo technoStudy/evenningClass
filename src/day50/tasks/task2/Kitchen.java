@@ -5,6 +5,8 @@ import day50.tasks.task2.food.*;
 public class Kitchen {
 
     public void cook(Food food) {
+        System.out.println("===========" + food.getClass().getSimpleName() + "==================");
+
         System.out.println("star cooking");
 
         if(food instanceof AdanaKebab) {

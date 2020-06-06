@@ -14,5 +14,4 @@ ex: kabab first should be marinaded then grilled
 NOTE: no static methods here
 
 **Part 3**
-create class TechnoCafe with several foods to serve
-cook them and serve =)
+create class TechnoCafe with several foods to cook them and serve =)
