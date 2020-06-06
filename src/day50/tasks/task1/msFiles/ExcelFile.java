@@ -20,4 +20,8 @@ public class ExcelFile implements MSOffice {
     public String close() {
         return "close Excel app";
     }
+
+    public String formula() {
+        return "SUM(B10:B10)";
+    }
 }

@@ -5,28 +5,40 @@ import day50.tasks.task1.msFiles.*;
 public class Explorer {
 
     public static void main(String[] args) {
-        PowerPointFile file3 = new PowerPointFile();
+        MSOffice file1 = new PowerPointFile();
+        workWithFile(file1);
+
+        MSOffice file2 = new TxtFile();
+        workWithFile(file2);
+
+        MSOffice file3 = new ExcelFile();
         workWithFile(file3);
 
 
     }
 
-    public static void workWithFile(MSOffice file) {
-        System.out.println("===========" + file.getClass().getSimpleName()+"==================");
-        System.out.println(file.open());
-        System.out.println(file.read());
-        System.out.println(file.save());
-        System.out.println(file.close());
+    public static void workWithFile(MSOffice officeFile) {
+        System.out.println("===========" + officeFile.getClass().getSimpleName() + "==================");
+        System.out.println(officeFile.open());
+        System.out.println(officeFile.read());
+        System.out.println(officeFile.save());
+        System.out.println(officeFile.close());
 
-        PowerPointFile pptFile = (PowerPointFile) file;
-        System.out.println(pptFile.slides());
+
+        if(officeFile instanceof PowerPointFile) {
+            PowerPointFile pptFile = (PowerPointFile) officeFile;
+            System.out.println(pptFile.slides());
+        }else if(officeFile instanceof ExcelFile){
+            ExcelFile excelFile = (ExcelFile) officeFile;
+            System.out.println(excelFile.formula());
+        }
+
 
 
     }
 
 
-
-    public static void option1(){
+    public static void option1() {
 //        System.out.println("----WORD-----");
 //        workWithFile(file1);
 //        System.out.println("----EXCEL-----");
