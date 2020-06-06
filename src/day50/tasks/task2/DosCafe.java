@@ -20,4 +20,8 @@ public class DosCafe {
             }
         };
     }
+
+
+    private class Kit{
+    }
 }
