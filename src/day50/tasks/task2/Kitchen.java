@@ -28,7 +28,8 @@ public class Kitchen {
         }
 
 
-        System.out.println(food.taste());
+        //System.out.println(food.taste());
+        food.print();
         System.out.println("serve food");
     }
 }

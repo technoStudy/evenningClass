@@ -7,6 +7,7 @@ public class AdanaKebab implements Food {
         return "spicy as kebab";
     }
 
+
     public String marinade(){
         return "oil, salt";
     }

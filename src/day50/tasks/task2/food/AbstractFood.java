@@ -1,14 +1,11 @@
 package day50.tasks.task2.food;
 
-public interface Food {
+public abstract class AbstractFood {
 
-    String taste();
+    public abstract String taste();
 
-
-    //print how it taste
-    default void print() {
+    public void print(){
         System.out.println("food taste: " + taste());
     }
-
 
 }
