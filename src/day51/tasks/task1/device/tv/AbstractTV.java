@@ -1,8 +1,9 @@
 package day51.tasks.task1.device.tv;
 
+import day51.tasks.task1.device.AbstractDevice;
 import day51.tasks.task1.device.Product;
 
-public abstract class AbstractTV  implements Product {
+public abstract class AbstractTV extends AbstractDevice implements Product {
 
     private double diagonal;
     private String os;

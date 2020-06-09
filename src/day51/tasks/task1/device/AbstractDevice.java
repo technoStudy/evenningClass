@@ -31,4 +31,12 @@ public class AbstractDevice implements Product {
     public void setCondition(Condition condition) {
         this.condition = condition;
     }
+
+    @Override
+    public String toString() {
+        return "\n" + getClass().getSimpleName() +
+                "\nmodel: " + model +
+                "\nprice: " + price +
+                "\ncondition: " + condition;
+    }
 }
