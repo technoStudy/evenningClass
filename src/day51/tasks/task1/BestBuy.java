@@ -6,8 +6,7 @@ import day51.tasks.task1.device.DisplayType;
 import day51.tasks.task1.device.Product;
 import day51.tasks.task1.device.laptop.MacBook;
 import day51.tasks.task1.device.phone.IPhone;
-
-import javax.crypto.Mac;
+import day51.tasks.task1.device.tablet.IPad;
 
 public class BestBuy {
 
@@ -29,5 +28,7 @@ public class BestBuy {
         macBook.setPrice(3000);
         System.out.println(macBook);
 
+
+        Product ipad = new IPad("Ipad pro", 1000, Condition.NEW, true);
     }
 }
