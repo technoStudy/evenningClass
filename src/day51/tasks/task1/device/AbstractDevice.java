@@ -1,5 +1,7 @@
 package day51.tasks.task1.device;
 
+import day51.tasks.task1.device.laptop.AbstractLaptop;
+
 public class AbstractDevice implements Product {
 
     private String model;
@@ -34,9 +36,20 @@ public class AbstractDevice implements Product {
 
     @Override
     public String toString() {
-        return "\n" + getClass().getSimpleName() +
-                "\nmodel: " + model +
-                "\nprice: " + price +
-                "\ncondition: " + condition;
+        String info = "\n---" + this.getClass().getSimpleName() +"---"+
+                "\nmodel: " + this.model +
+                "\nprice: " + this.price +
+                "\ncondition: " + this.condition;
+
+        if(this instanceof AbstractLaptop){
+            AbstractLaptop laptop = (AbstractLaptop) this;
+            info += "\nCPU: " + laptop.getCPU();
+            info += "\nRAM: " + laptop.getRAM();
+            info += "\nDisplay: " + laptop.getDisplayType();
+        }
+
+
+
+        return info;
     }
 }
