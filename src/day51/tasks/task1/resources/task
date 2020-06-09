@@ -30,3 +30,7 @@ ex: MoneyNotEnoughException
 
 **Part 5**
 create method to print receipt of products(devices)
+
+**Part 6**
+create method to get average prices of Laptops, TVs, Phones and Tablets
+
