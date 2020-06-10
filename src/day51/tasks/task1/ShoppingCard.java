@@ -28,7 +28,7 @@ public class ShoppingCard {
     //check if money is enough to buy
     public void checkOut(double money) {
         if(money < getTotalPrice()){
-            throw new MoneyNotEnoughException("not enough money");
+            throw new MoneyNotEnoughException("Not enough money");
         }
 
         System.out.println("Thank you for purchase, see you soon :) ");

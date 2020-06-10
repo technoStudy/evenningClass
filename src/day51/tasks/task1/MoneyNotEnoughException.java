@@ -1,9 +1,8 @@
 package day51.tasks.task1;
 
-public class MoneyNotEnoughException //extend
-{
+public class MoneyNotEnoughException extends RuntimeException {
 
-    public MoneyNotEnoughException(String text) {
-        //super
+    public MoneyNotEnoughException(String message) {
+        super(message);
     }
 }

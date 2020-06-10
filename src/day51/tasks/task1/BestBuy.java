@@ -34,12 +34,12 @@ public class BestBuy {
         ShoppingCard card1 = new ShoppingCard();
         card1.addProduct(ipad);
         card1.addProduct(macBook);
-        card1.printList();
+//        card1.printList();
         System.out.println("Total: "+ card1.getTotalPrice());
 
         card1.removeProduct(ipad);
         System.out.println("\nremoved ipad");
-        card1.printList();
+//        card1.printList();
         System.out.println("Total: "+ card1.getTotalPrice());
 
         card1.checkOut(2000);

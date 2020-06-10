@@ -30,6 +30,12 @@ ex: MoneyNotEnoughException
 
 **Part 5**
 create method to print receipt of products(devices)
+ex: ---Receipt---
+    model: $xxxx
+    model: $xxxx
+    -------------
+    TOTAL: $xxxx
+    -------------
 
 **Part 6**
 create method to get average prices of Laptops, TVs, Phones and Tablets
