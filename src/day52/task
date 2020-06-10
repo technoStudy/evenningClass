@@ -1,0 +1,15 @@
+**Part 1**
+Create custom StringSet with methods:
+    void add(String s);
+    void remove(String s);
+    int size();
+    void clear(); //remove all String from StringSet
+    boolean isEmpty();
+
+create SimpleStringSet that stores String in unique
+
+**Part 2**
+create SortedStringSet that stores String in unique & natural sorting order
+
+**Part 3**
+create addAll method
