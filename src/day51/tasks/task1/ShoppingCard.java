@@ -26,7 +26,11 @@ public class ShoppingCard {
 
 
     public void checkOut(double money) {
+        if(money < getTotalPrice()){
+            throw new RuntimeException("not enough money");
+        }
 
+        System.out.println("Thank you for purchase, see you soon :) ");
     }
 
 }
