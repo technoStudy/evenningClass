@@ -27,11 +27,21 @@ public class ShoppingCard {
 
     //check if money is enough to buy
     public void checkOut(double money) {
-        if(money < getTotalPrice()){
+        if(money < getTotalPrice()) {
             throw new MoneyNotEnoughException("Not enough money");
         }
 
         System.out.println("Thank you for purchase, see you soon :) ");
+    }
+
+    public void printReceipt() {
+        System.out.println("--- Receipt ---");
+        for(Product product : productList) {
+            System.out.println(product.getModel() + ":  $" + product.getPrice());
+        }
+        System.out.println("---------------");
+        System.out.println("TOTAL: $" + getTotalPrice());
+        System.out.println("---------------");
     }
 
 }

@@ -42,7 +42,8 @@ public class BestBuy {
 //        card1.printList();
         System.out.println("Total: "+ card1.getTotalPrice());
 
-        card1.checkOut(2000);
+        card1.checkOut(50_000);
+        card1.printReceipt();
 
     }
 }
